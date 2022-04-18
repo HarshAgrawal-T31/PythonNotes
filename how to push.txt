@@ -1,0 +1,74 @@
+
+Harsh@DESKTOP-RU3NMEP MINGW64 ~/Desktop/new
+$ git init
+Initialized empty Git repository in C:/Users/Harsh/Desktop/new/.git/
+
+Harsh@DESKTOP-RU3NMEP MINGW64 ~/Desktop/new (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        1648177522603_Daily_notes_30.txt
+        etabs key.txt
+        plot.log
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Harsh@DESKTOP-RU3NMEP MINGW64 ~/Desktop/new (master)
+$ git add --a
+
+Harsh@DESKTOP-RU3NMEP MINGW64 ~/Desktop/new (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   1648177522603_Daily_notes_30.txt
+        new file:   etabs key.txt
+        new file:   plot.log
+
+
+Harsh@DESKTOP-RU3NMEP MINGW64 ~/Desktop/new (master)
+$ git commit -m "first_repo"
+[master (root-commit) c6c279a] first_repo
+ 3 files changed, 1021 insertions(+)
+ create mode 100644 1648177522603_Daily_notes_30.txt
+ create mode 100644 etabs key.txt
+ create mode 100644 plot.log
+
+Harsh@DESKTOP-RU3NMEP MINGW64 ~/Desktop/new (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Harsh@DESKTOP-RU3NMEP MINGW64 ~/Desktop/new (master)
+$ whoami
+Harsh
+
+Harsh@DESKTOP-RU3NMEP MINGW64 ~/Desktop/new (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Harsh@DESKTOP-RU3NMEP MINGW64 ~/Desktop/new (master)
+$ git remote add origin "https://github.com/HarshAgrawal-T31/PythonNotes.git"
+
+Harsh@DESKTOP-RU3NMEP MINGW64 ~/Desktop/new (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 9.33 KiB | 1.87 MiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/HarshAgrawal-T31/PythonNotes.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+Harsh@DESKTOP-RU3NMEP MINGW64 ~/Desktop/new (master)
+$
